@@ -4,14 +4,14 @@
 
 By:Ayma Rahman, Sarah Saleem, Samira Shafiei, Kate Zagrebneva
 
-# Objectives:
+# Objectives
 Find insights using Exploratory Data Analysis (e.g. Wordcloud)
 and Building three Classification models; Logistic Regression, Decision Tree, and Random Forest based on wine descriptions to predict whether the wine is:
    - Popular wine or not popular wine?
    - Cheap wine or expensive wine?
    - White wine or red wine
 
-# Data: 
+# Data 
 We used dataset from Kaggle called “winemag”.  Originally, The data was scraped from WineEnthusiast during the week of June 15th, 2017. There are 13 attributes and 129970 observations in the dataset.
 
 # Data Preprocessing
