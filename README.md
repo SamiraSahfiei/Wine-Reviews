@@ -11,6 +11,9 @@ and Building three Classification models; Logistic Regression, Decision Tree, an
    - Cheap wine or expensive wine?
    - White wine or red wine
 
+# Data: 
+We used dataset from Kaggle called “winemag”.  Originally, The data was scraped from WineEnthusiast during the week of June 15th, 2017. There are 13 attributes and 129970 observations in the dataset.
+
 # Data Preprocessing
 Mainly six preliminary data processing steps were undertaken for cleaning and correcting the data for the purpose of analysis:
 
