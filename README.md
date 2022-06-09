@@ -32,7 +32,7 @@ Mainly six preliminary data processing steps were undertaken for cleaning and co
 
 **6. Label Encoding**: We used label encoding to assign unique integers to each class in each variable to work better in our models, especially in the Logistic Regression model.
 
-## Project Analysis
+# Project Analysis
 We processed the wine description text to create three classification models, such as Logistic Regression, Decision Tree, and Random Forest to classify the wines into popularity, price, and type. By having the top word sequences we can have insight into the language describing wines. To do so, we will be using n-grams, Countvectorizer, word cloud, and nltk (Natural Language Toolkit) python packages. We will use unigram, bigrams, and trigrams to find the top one word, two sequence words, and three sequence words to describe wine.
 
 **Popularity:** We used the description column, which is the tasters' reviews and Points column as the target variabel. After trying different classes for the points to get the highest accuracy, we realized having three categories: good, very good, and excellent give the best accuracy. Based on the accuracy of all three models, we see that logistic and random forest performed the best with the latter being a little bit higher. For the quality prediction, it is suitable to use a random forest model as we got the highest accuracy when compared to the other two.
